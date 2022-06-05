@@ -1,0 +1,40 @@
+@font-face {
+    font-family: ACDC;
+    src: local("ACDC"),
+    local("ACDC"),
+    url(ACDC.ttf);
+    font-weight: bold;
+  }
+  
+body {
+	background: linear-gradient(-90deg, #43cea2,#185a9d, #ba5ac4	);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	animation: gradient 15s ease infinite;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
